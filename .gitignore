@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# remove output csv files
+doji.csv
+hammer.csv
