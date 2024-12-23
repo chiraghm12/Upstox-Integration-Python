@@ -35,7 +35,7 @@ def get_authorize_code():
     c = input("Enter Code : ")
     global CODE
     CODE = c
-    print("Code is : ", CODE)
+    # print("Code is : ", CODE)
 
 
 def get_access_token():
@@ -56,7 +56,7 @@ def get_access_token():
     response = requests.post(url, headers=headers, data=payload)
     global ACCESS_TOKEN
     ACCESS_TOKEN = response.json().get("access_token")
-    print(response.text)
+    # print(response.text)
 
 
 def fetch_instrument_keys_from_csv():
@@ -74,7 +74,7 @@ def fetch_instrument_keys_from_csv():
             # filtered_row = {col: row[col] for col in column_name}
             INSTRUMENT_KEYS.append(row[column_name])
 
-    print("Column values:", len(INSTRUMENT_KEYS))
+    # print("Column values:", len(INSTRUMENT_KEYS))
 
 
 def is_hammer(open_price, high_price, low_price, close_price):
@@ -104,9 +104,6 @@ def is_hammer(open_price, high_price, low_price, close_price):
     #     upper_shadow <= body * 0.1                # Minimal upper wick
     # ):
     if (lower_shadow >= (body * 2)) and (upper_shadow <= (body * 0.3)):
-        print("upper_shadow = ", upper_shadow)
-        print("lower_shadow = ", lower_shadow)
-        print("body = ", body)
         return True
     return False
 
@@ -132,7 +129,7 @@ def filter_data():
     while count < 500:
         instrument_keys = INSTRUMENT_KEYS[count : count + 100]
         count = count + 100
-        instrument_keys_str = ",".join(instrument_keys)
+        instrument_keys_str = ",".join(["NSE_EQ|" + s for s in instrument_keys])
 
         data = {"instrument_key": instrument_keys_str}
 
