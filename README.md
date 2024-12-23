@@ -2,9 +2,14 @@
 
 
 ## Project Overview
-This project aims to implement the CandleStick pattern on nifty 500 Stocks. This project give stocks name in which **Hammer(Bullish)** and **Doji** have been made on last day.
+This project aims to implement the **CandleStick pattern Analyzer** on nifty 500 Stocks using **Upstox** Develper APIs.
 
-**Upstox** Developer APIs is used in this project.
+This project analyze the CandleStick Pattern like:
+* Hammer
+* Inverted Hammer
+* Doji
+* Spinning Top or Bottom
+
 
 ## Installation
 
@@ -66,6 +71,8 @@ After Filtering the CandleStick, the application creates a individual CSV files 
 Two Files:
  - A CSV file contains Stock names with Hammer
  - A CSV file contains stock names with Doji
+ - A CSV file contains stock name with Inverted Hammer
+ - A CSV file contains stock name with Spinning Top and Bottom
 
 
 ## Acknowledgements
