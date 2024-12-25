@@ -2,13 +2,13 @@
 
 
 ## Project Overview
-This project aims to implement the **CandleStick pattern Analyzer** on nifty 500 Stocks using **Upstox** Develper APIs.
+This project aims to implement the **CandleStick pattern Analyzer** on **Nifty500** Stocks using **Upstox Develper APIs**.
 
 This project analyze the CandleStick Pattern like:
-* Hammer
-* Inverted Hammer
-* Doji
-* Spinning Top or Bottom
+* **Hammer**
+* **Inverted Hammer**
+* **Doji**
+* **Spinning Top or Bottom**
 
 
 ## Installation
