@@ -1,4 +1,4 @@
-# Candle-Stick-Pattern-Analyzer
+# Upstox Integration Python
 
 
 ## Project Overview
