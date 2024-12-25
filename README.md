@@ -2,7 +2,9 @@
 
 
 ## Project Overview
-This project aims to implement the **CandleStick pattern Analyzer** on **Nifty500** Stocks using **Upstox Develper APIs**.
+This project aims to integrate **Upstox API** into Python project for streamlined access to stock market data, trading operations, and portfolio management.
+
+Leverage **Upstox Developer APIs** in your Python project to access market insights.
 
 This project analyze the CandleStick Pattern like:
 * **Hammer**
