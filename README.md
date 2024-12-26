@@ -7,6 +7,12 @@ This Python project demonstrates how to connect to the **Upstox Websocket API** 
 
 Leverage **Upstox Developer APIs** in your Python project to access market insights.
 
+Have Two files:
+*  **filter_candlestick_pattern.py** -  fetch candle data and filter the pattern.
+*  **websocket_client.py** - fetch real-time data.
+
+
+
 This project analyze the CandleStick Pattern like:
 * **Hammer**
 * **Inverted Hammer**
