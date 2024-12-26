@@ -2,7 +2,8 @@
 
 
 ## Project Overview
-This project aims to integrate **Upstox API** into Python project for streamlined access to stock market data, trading operations, and portfolio management.
+This project aims to integrate **Upstox API** into Python project for streamlined access to **stock market data**, trading operations, and portfolio management.
+This Python project demonstrates how to connect to the **Upstox Websocket API** for streaming **live market data**.
 
 Leverage **Upstox Developer APIs** in your Python project to access market insights.
 
