@@ -22,5 +22,5 @@ repos:
     hooks:
       - id: flake8
         args: [ '--max-line-length=150', '--ignore=E203,W503']
-        exclude: ^[^\/]+\/migrations\/
+        exclude: ^MarketDataFeed_pb2\.py$
         # extend-ignore: E203, W503
