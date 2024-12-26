@@ -73,6 +73,19 @@ This project analyze the CandleStick Pattern like:
     REDIRECT_URL=<redirect_url>
     ```
 
+7. Run the file
+
+    * Filter CandleStick Pattern:
+        ```
+        python -m filter_candlestick_pattern.py
+        ```
+
+    * WebSocket Client:
+        ```
+        python -m websocket_client.py
+        ```
+
+
 ## Data and Reports
 
 After Filtering the CandleStick, the application creates a individual CSV files for Hammer and Doji in the system.
@@ -88,6 +101,11 @@ Two Files:
 
 We would like to thank the following resources and libraries that made this project possible:
 
-* **Upstox**: for providing the APIs and resources that enabled the development of this project.
+* **Upstox**: We extend our thanks to Upstox for providing access to their API, which has been vital for developing and enhancing the features of this project.
 * **Python Decouple**: A tool to manage settings and environment variables, enabling easy configuration of the project.
 * **Open Source Community**: For providing valuable resources, libraries, and tools that aid in the development of web applications.
+
+
+## Disclaimer:
+
+The use of Upstox data and services is intended for informational and educational purposes only. This project is not affiliated with or endorsed by Upstox. The developers of this project are solely responsible for any issues, inaccuracies, or misuse of the data or services provided by Upstox.
