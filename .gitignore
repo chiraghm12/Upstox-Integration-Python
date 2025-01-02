@@ -171,7 +171,4 @@ cython_debug/
 .pypirc
 
 # remove output csv files
-Doji.csv
-Hammer.csv
-Inverted_Hammer.csv
-Spinning_Top_Bottom.csv
+CandleStick/
